@@ -4,8 +4,8 @@ class generateTask extends sfBaseTask
 {
   protected function configure()
   {
-    // // add your own arguments here
-     $this->addArguments(array(
+    // add your own arguments here
+		$this->addArguments(array(
        new sfCommandArgument('model', sfCommandArgument::REQUIRED, ''),
        new sfCommandArgument('modelRelation', sfCommandArgument::REQUIRED, '')
      ));
