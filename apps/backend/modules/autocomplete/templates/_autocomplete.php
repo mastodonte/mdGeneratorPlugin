@@ -2,16 +2,16 @@
 <?php
 
 //required for TextboxList`
-use_javascript('TextboxList/GrowingInput.js');
-use_javascript('TextboxList/SuggestInput.js');
-use_javascript('TextboxList/TextboxList.js');
-use_javascript('TextboxList/TextboxList.Autocomplete.js');
+use_javascript('../mdGeneratorPlugin/js/TextboxList/GrowingInput.js');
+use_javascript('../mdGeneratorPlugin/js/TextboxList/SuggestInput.js');
+use_javascript('../mdGeneratorPlugin/js/TextboxList/TextboxList.js');
+use_javascript('../mdGeneratorPlugin/js/TextboxList/TextboxList.Autocomplete.js');
 //required for TextboxList.Autocomplete if method set to 'binary'
-use_javascript('TextboxList/TextboxList.Autocomplete.Binary.js');
+use_javascript('../mdGeneratorPlugin/js/TextboxList/TextboxList.Autocomplete.Binary.js');
 
 
-use_stylesheet('../js/TextboxList/TextboxList.css', 'last');
-use_stylesheet('../js/TextboxList/TextboxList.Autocomplete.css', 'last');
+use_stylesheet('../mdGeneratorPlugin/css/TextboxList/TextboxList.css', 'last');
+use_stylesheet('../mdGeneratorPlugin/css/TextboxList/TextboxList.Autocomplete.css', 'last');
 ?>
 
 <div class="##MODEL_CLASS##">
