@@ -63,3 +63,5 @@ el comando generador seria: php symfony mdGenerate:generate ecColor ecProduct
 Ahora ya puedes incluir el componente:
 
 <?php include_component($modelName . 'Backend', 'autocomplete', array('ec_object' => $ec_object)); ?>
+
+// maui
